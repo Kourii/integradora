@@ -32,3 +32,23 @@ regresiva se enciende el quemador y el ventilador.
 5. Cuando se alcanzan las 3/4 partes del tiempo (puede ser aproximado), se debe activar la
 v ́alvula de vapor.
 6. Mientras el tiempo este pausado, se debe apagar el ventilador.
+7. Al finalizar el tiempo deben apagarse el quemador, ventilador y valvula(si estuviese en-
+cendida) y sonar el buzzer 10 segundos para luego regresar al estado de espera.
+
+Las funcionalidades propuestas son el máximo, deberán implementarse un mínimo de
+4 de estos puntos, y debe poder probarse su funcionalidad.
+
+## Entrega
+
+La entrega en la plataforma consiste en un documento .pdf que contenga:
+[] Circuito propuesto para la resolución del problema.
+[] Diagrama de flujo, tabla de verdad, diagrama temporal o el recurso utilizado representando
+el algoritmo a implementar.
+[] Implementación en lenguaje C de acuerdo al circuito propuesto.
+
+## Defensa
+
+La defensa del trabajo se realizara de manera presencial, se debera presentar armado
+y funcionando el circuito planteado en el protoboard y con el programa cargado.
+La certificacion del trabajo realizado depende de la defensa, es decir que no certificara
+aquel que no defienda su trabajo, o bien se evidencie que no es de su produccion personal.
