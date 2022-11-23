@@ -1,16 +1,16 @@
 # Evaluación
 
-El examen deber ́a realizarse en los plazos estipulados en la plataforma.
+El examen deberá realizarse en los plazos estipulados en la plataforma.
 Se realizara en grupos de 2 personas, no mas.
 
 ## Consignas
 
-Se desea realizar un control de tiempo de cocci ́on para un horno panadero, que permita
+Se desea realizar un control de tiempo de cocción para un horno panadero, que permita
 el encendido del quemador, ventilador de recirculacion y la inyeccion de vapor al horno.
 Para esto se dispone de:
 
 * 1 display que indicaran el tiempo de cocci ́on en minutos ( 0 a F, hexadecimal)
-* 4 leds indicando la salida activa (quemador, ventilador, v ́alvula de vapor y un buzzer)
+* 4 leds indicando la salida activa (quemador, ventilador, válvula de vapor y un buzzer)
 * 2 pulsadores que permiten ajustar el tiempo deseado
 * 1 pulsador que comienza el tiempo, y permite pausar.
 * 1 pulsador que permite cancelar el tiempo.
@@ -41,10 +41,10 @@ Las funcionalidades propuestas son el máximo, deberán implementarse un mínimo
 ## Entrega
 
 La entrega en la plataforma consiste en un documento .pdf que contenga:
-[] Circuito propuesto para la resolución del problema.
-[] Diagrama de flujo, tabla de verdad, diagrama temporal o el recurso utilizado representando
+- [ ] Circuito propuesto para la resolución del problema.
+- [ ] Diagrama de flujo, tabla de verdad, diagrama temporal o el recurso utilizado representando
 el algoritmo a implementar.
-[] Implementación en lenguaje C de acuerdo al circuito propuesto.
+- [ ] Implementación en lenguaje C de acuerdo al circuito propuesto.
 
 ## Defensa
 
