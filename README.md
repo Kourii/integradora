@@ -56,7 +56,7 @@ aquel que no defienda su trabajo, o bien se evidencie que no es de su produccion
 ## Circuito
 ![Circuito](Circuito.png "Circuito")
 ## Diagrama
-![Diagrama](Diagrama.svg "Diagrama")
+![Diagrama](Diagrama.drawio.svg "Diagrama")
 
 > Nota: Se busca minimizar las lineas que van del micro controlador al panel de display, para
 ello utilice un registro de desplazamiento para el manejo de las salidas o las entradas, a
