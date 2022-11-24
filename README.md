@@ -9,7 +9,7 @@ Se desea realizar un control de tiempo de cocción para un horno panadero, que p
 el encendido del quemador, ventilador de recirculacion y la inyeccion de vapor al horno.
 Para esto se dispone de:
 
-* 1 display que indicaran el tiempo de cocci ́on en minutos ( 0 a F, hexadecimal)
+* 1 display que indicaran el tiempo de cocción en minutos ( 0 a F, hexadecimal)
 * 4 leds indicando la salida activa (quemador, ventilador, válvula de vapor y un buzzer)
 * 2 pulsadores que permiten ajustar el tiempo deseado
 * 1 pulsador que comienza el tiempo, y permite pausar.
@@ -23,7 +23,7 @@ elecci ́on suya.
 
 1. Debe poder ajustarse el tiempo solo cuando este no esta corriendo o en pausa, es decir
 cuando el horno esta en espera.
-2. Un pulsador permitir ́a comenzar la cuenta regresiva o bien pausara/reanudara si ya hab ́ıa
+2. Un pulsador permitirá comenzar la cuenta regresiva o bien pausara/reanudara si ya hab ́ıa
 comenzado.
 3. Un pulsador permite cancelar en cualquier momento la cuenta regresiva y regresar a el
 estado de espera.
