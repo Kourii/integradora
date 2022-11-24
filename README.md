@@ -26,7 +26,7 @@ estado de espera.
 4. Mientras el horno esta en espera, las salidas deben estar apagadas. Al comenzar la cuenta
 regresiva se enciende el quemador y el ventilador.
 5. Cuando se alcanzan las 3/4 partes del tiempo (puede ser aproximado), se debe activar la
-válcula de vapor.
+válvula de vapor.
 6. Mientras el tiempo este pausado, se debe apagar el ventilador.
 7. Al finalizar el tiempo deben apagarse el quemador, ventilador y valvula(si estuviese en-
 cendida) y sonar el buzzer 10 segundos para luego regresar al estado de espera.
