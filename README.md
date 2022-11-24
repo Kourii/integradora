@@ -15,14 +15,6 @@ Para esto se dispone de:
 * 1 pulsador que comienza el tiempo, y permite pausar.
 * 1 pulsador que permite cancelar el tiempo.
 
-![Pinout](Arduino-Nano-Pinout.png "Pinout")
----
-![display](Display-7-segmentos-catodo-comun.webp "Display")
-
-> Nota: Se busca minimizar las lineas que van del micro controlador al panel de display, para
-ello utilice un registro de desplazamiento para el manejo de las salidas o las entradas, a
-elecci ́on suya.
-
 ### El funcionamiento debe ser el siguiente:
 
 1. Debe poder ajustarse el tiempo solo cuando este no esta corriendo o en pausa, es decir
@@ -34,7 +26,7 @@ estado de espera.
 4. Mientras el horno esta en espera, las salidas deben estar apagadas. Al comenzar la cuenta
 regresiva se enciende el quemador y el ventilador.
 5. Cuando se alcanzan las 3/4 partes del tiempo (puede ser aproximado), se debe activar la
-v ́alvula de vapor.
+válcula de vapor.
 6. Mientras el tiempo este pausado, se debe apagar el ventilador.
 7. Al finalizar el tiempo deben apagarse el quemador, ventilador y valvula(si estuviese en-
 cendida) y sonar el buzzer 10 segundos para luego regresar al estado de espera.
@@ -56,3 +48,37 @@ La defensa del trabajo se realizara de manera presencial, se debera presentar ar
 y funcionando el circuito planteado en el protoboard y con el programa cargado.
 La certificacion del trabajo realizado depende de la defensa, es decir que no certificara
 aquel que no defienda su trabajo, o bien se evidencie que no es de su produccion personal.
+
+- - - -
+
+## Pinout
+![Pinout](Arduino-Nano-Pinout.png "Pinout")
+## Display
+![display](Display-7-segmentos-catodo-comun.webp "Display")
+
+> Nota: Se busca minimizar las lineas que van del micro controlador al panel de display, para
+ello utilice un registro de desplazamiento para el manejo de las salidas o las entradas, a
+elecci ́on suya.
+
+```C
+PC0 -> BOTON 1 
+PC1 -> BOTON 2 
+PC2 -> BOTON 3 
+PC3 -> BOTON 4
+
+PD2 -> SEGMENTO A   
+PD3 -> SEGMENTO B 
+PD4 -> SEGMENTO C
+PD5 -> SEGMENTO D 
+PD6 -> SEGMENTO E 
+PD7 -> SEGMENTO F
+PB0 -> SEGMENTO G
+PB1 -> SEGMENTO DP
+
+PB2 -> Quemador
+PB3 -> Ventilador
+PB4 -> Buzzer
+PB5 -> Vapor
+``` 
+
+- - - -
