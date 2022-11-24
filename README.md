@@ -15,17 +15,6 @@ Para esto se dispone de:
 * 1 pulsador que comienza el tiempo, y permite pausar.
 * 1 pulsador que permite cancelar el tiempo.
 
-
-## Pinout
-![Pinout](Arduino-Nano-Pinout.png "Pinout")
----
-## Display
-![display](Display-7-segmentos-catodo-comun.webp "Display")
-
-> Nota: Se busca minimizar las lineas que van del micro controlador al panel de display, para
-ello utilice un registro de desplazamiento para el manejo de las salidas o las entradas, a
-elecci ́on suya.
-
 ### El funcionamiento debe ser el siguiente:
 
 1. Debe poder ajustarse el tiempo solo cuando este no esta corriendo o en pausa, es decir
@@ -59,3 +48,32 @@ La defensa del trabajo se realizara de manera presencial, se debera presentar ar
 y funcionando el circuito planteado en el protoboard y con el programa cargado.
 La certificacion del trabajo realizado depende de la defensa, es decir que no certificara
 aquel que no defienda su trabajo, o bien se evidencie que no es de su produccion personal.
+
+- - - -
+
+## Pinout
+![Pinout](Arduino-Nano-Pinout.png "Pinout")
+## Display
+![display](Display-7-segmentos-catodo-comun.webp "Display")
+
+> Nota: Se busca minimizar las lineas que van del micro controlador al panel de display, para
+ello utilice un registro de desplazamiento para el manejo de las salidas o las entradas, a
+elecci ́on suya.
+
+```C
+PC0 -> BOTON 1 
+PC1 -> BOTON 2 
+PC2 -> BOTON 3 
+PC3 -> BOTON 4
+
+PD2 -> SEGMENTO A   
+PD3 -> SEGMENTO B 
+PD4 -> SEGMENTO C
+PD5 -> SEGMENTO D 
+PD6 -> SEGMENTO E 
+PD7 -> SEGMENTO F
+PB0 -> SEGMENTO G
+PB1 -> SEGMENTO DP
+``` 
+
+- - - -
