@@ -15,6 +15,10 @@ Para esto se dispone de:
 * 1 pulsador que comienza el tiempo, y permite pausar.
 * 1 pulsador que permite cancelar el tiempo.
 
+![Pinout](Arduino-Nano-Pinout.png "Pinout")
+---
+![display](Display-7-segmentos-catodo-comun.webp "Display")
+
 > Nota: Se busca minimizar las lineas que van del micro controlador al panel de display, para
 ello utilice un registro de desplazamiento para el manejo de las salidas o las entradas, a
 elecci ́on suya.
