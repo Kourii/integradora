@@ -53,8 +53,10 @@ aquel que no defienda su trabajo, o bien se evidencie que no es de su produccion
 
 ## Pinout
 ![Pinout](Arduino-Nano-Pinout.png "Pinout")
-## Display
-![display](Display-7-segmentos-catodo-comun.webp "Display")
+## Circuito
+![Circuito](Circuito.png "Circuito")
+## Diagrama
+![Diagrama](Diagrama.svg "Diagrama")
 
 > Nota: Se busca minimizar las lineas que van del micro controlador al panel de display, para
 ello utilice un registro de desplazamiento para el manejo de las salidas o las entradas, a
